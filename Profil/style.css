@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeafaf;
+  }
+  
+  header {
+    background-image: url("sus.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: #0c243b; /* fallback color jika gambar tidak tersedia */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header img {
+    width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    border-radius: 50%; /* Untuk memberikan efek lingkaran pada gambar */
+
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  h2 {
+    color:rgb(0, 0, 0)f;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  .atas {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    background-color: #3e4444;
+    ;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Memisahkan grid menjadi dua kolom dengan lebar yang sama */
+    gap: 20px; /* Jarak antara kolom */
+    
+  }
+  
+  .left-section {
+    grid-column: 1; /* Menempatkan elemen pada kolom pertama */
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5%;
+  }
+  
+  .right-section {
+    grid-column: 2; /* Menempatkan elemen pada kolom kedua */
+    background-color: #980000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5%;
+  }
+
+  .left-section2 {
+    grid-column: 1; /* Menempatkan elemen pada kolom pertama */
+    grid-row: 2;
+    background-color:  #980000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5%;
+  }
+  
+  .right-section2 {
+    grid-column: 2; /* Menempatkan elemen pada kolom kedua */
+    grid-row: 2;
+    background-color:  #fff;
+    color: #000;
+    padding: 10px;
+    border-radius: 5%;
+  }
+  
+  .dropdown-content {
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
